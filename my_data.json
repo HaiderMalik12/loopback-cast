@@ -1,0 +1,15 @@
+{
+  "ids": {
+    "Product": 7
+  },
+  "models": {
+    "Product": {
+      "1": "{\"name\":\"Iphone\",\"qty\":12,\"price\":10000,\"id\":1}",
+      "2": "{\"name\":\"Iphone\",\"qty\":12,\"id\":2}",
+      "3": "{\"name\":\"Iphone\",\"qty\":100,\"id\":3}",
+      "4": "{\"name\":\"Laptop\",\"qty\":100,\"id\":4}",
+      "5": "{\"name\":\"Laptop\",\"qty\":100,\"id\":5}",
+      "6": "{\"name\":\"jacket\",\"qty\":10,\"id\":6}"
+    }
+  }
+}
