@@ -14,5 +14,15 @@
     "name": "mongodb",
     "user": "",
     "connector": "mongodb"
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "lb_db",
+    "password": "root",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
   }
 }

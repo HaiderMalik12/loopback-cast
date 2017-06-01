@@ -1,3 +1,8 @@
-/**
- * Created by HaiderMalik on 01/06/2017.
- */
+'use strict';
+
+module.exports = function(app) {
+ app.dataSources.mysql.autoupdate('Product',err => {
+     if(err) throw err;
+     console.log('Models Synced!');
+ })
+}

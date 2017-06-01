@@ -14,7 +14,7 @@
     ]
   },
   "Product": {
-    "dataSource": "mongodb",
+    "dataSource": "mysql",
     "public": true
   }
 }
