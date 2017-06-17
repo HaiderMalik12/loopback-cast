@@ -24,5 +24,9 @@
   "Account": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Category": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
