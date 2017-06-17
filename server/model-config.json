@@ -16,5 +16,9 @@
   "Product": {
     "dataSource": "mysql",
     "public": true
+  },
+  "Company": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
