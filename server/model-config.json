@@ -28,5 +28,9 @@
   "Category": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "CompanyProduct": {
+    "dataSource": "mongodb",
+    "public": false
   }
 }

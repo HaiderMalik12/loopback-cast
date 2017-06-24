@@ -17,7 +17,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "companies": {
+      "type": "hasMany",
+      "model": "Company",
+      "foreignKey": "",
+      "through": "CompanyProduct"
+    }
+  },
   "acls": [],
   "methods": {}
 }
