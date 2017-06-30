@@ -32,5 +32,13 @@
   "CompanyProduct": {
     "dataSource": "mongodb",
     "public": false
+  },
+  "ACL": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "mongodb",
+    "public": false
   }
 }
