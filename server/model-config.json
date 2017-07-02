@@ -40,5 +40,8 @@
   "AccessToken": {
     "dataSource": "mongodb",
     "public": false
+  },
+  "User" :{
+    "dataSource" : "mongodb"
   }
 }
