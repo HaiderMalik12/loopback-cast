@@ -6,6 +6,16 @@ module.exports = function(Company) {
      cb(null,msg);
  }
 
+ Company.listCompanies = function(cb) {
+     Company.find()
+        .then(companies => {
+         cb(null,companies);
+        })
+        .catch(err =>{
+            cb(err);
+        });
+ }
+
  Company.remoteMethod('greet', {
      accepts : {
          arg: 'msg',

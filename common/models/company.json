@@ -45,5 +45,15 @@
       "permission": "DENY"
     }
   ],
-  "methods": {}
+  "methods": {
+    "listCompanies": {
+      "returns": {
+        "arg": "companies",
+        "type": "array"
+      },
+      "http": {
+        "verb": "get"
+      }
+    }
+  }
 }
