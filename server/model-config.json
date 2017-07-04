@@ -41,7 +41,7 @@
     "dataSource": "mongodb",
     "public": false
   },
-  "User" :{
-    "dataSource" : "mongodb"
+  "User": {
+    "dataSource": "mongodb"
   }
 }

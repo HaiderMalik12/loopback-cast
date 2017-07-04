@@ -30,4 +30,13 @@ module.exports = function(Company) {
      }
     
  });
+ /**
+ * Say greetings
+ * @param {string} msg Message for greeting
+ * @param {Function(Error, string)} callback
+ */
+
+Company.myGreet = function(msg, callback) {
+  callback(null, msg);
+};
 };

@@ -54,6 +54,31 @@
       "http": {
         "verb": "get"
       }
+    },
+    "myGreet": {
+      "accepts": [
+        {
+          "arg": "msg",
+          "type": "string",
+          "required": true,
+          "description": "Message for greeting"
+        }
+      ],
+      "returns": [
+        {
+          "arg": "greetings",
+          "type": "string",
+          "root": false,
+          "description": "Return Greeting"
+        }
+      ],
+      "description": "Say greetings",
+      "http": [
+        {
+          "path": "/my-greet",
+          "verb": "get"
+        }
+      ]
     }
   }
 }
