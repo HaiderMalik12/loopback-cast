@@ -5,6 +5,15 @@ var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
 
+app.use((req,res,next) => {
+  console.log('Custom Middleware!!');
+  next();
+});
+
+app.get('/my-new-greet',(req,res) => {
+  res.json({msg: 'Hello World!!'});
+});
+
 app.start = function() {
   // start the web server
   return app.listen(function() {

@@ -42,6 +42,7 @@
     "public": false
   },
   "User": {
-    "dataSource": "mongodb"
+    "dataSource": "mongodb",
+    "public":false
   }
 }

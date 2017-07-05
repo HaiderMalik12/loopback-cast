@@ -38,6 +38,9 @@
       "paths": [
         "${restApiRoot}"
       ]
+    },
+    "./middleware/datetime": {
+      "paths": "/datetime"
     }
   },
   "files": {},
