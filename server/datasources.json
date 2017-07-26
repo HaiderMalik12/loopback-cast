@@ -24,5 +24,11 @@
     "name": "mysql",
     "user": "root",
     "connector": "mysql"
+  },
+  "local-storage": {
+    "name": "local-storage",
+    "connector": "loopback-component-storage",
+    "root" : "./server/local-storage",
+    "provider" : "filesystem"
   }
 }

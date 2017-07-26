@@ -43,6 +43,10 @@
   },
   "User": {
     "dataSource": "mongodb",
-    "public":false
+    "public": false
+  },
+  "Container": {
+    "dataSource": "local-storage",
+    "public": true
   }
 }
