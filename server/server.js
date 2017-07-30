@@ -6,7 +6,7 @@ var boot = require('loopback-boot');
 var app = module.exports = loopback();
 
 app.use((req,res,next) => {
-  console.log('Custom Middleware!!');
+  // console.log('Custom Middleware!!');
   next();
 });
 
