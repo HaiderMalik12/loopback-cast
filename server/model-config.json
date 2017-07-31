@@ -46,7 +46,7 @@
     "public": false
   },
   "Container": {
-    "dataSource": "local-storage",
+    "dataSource": "filestore-mongo",
     "public": true
   }
 }

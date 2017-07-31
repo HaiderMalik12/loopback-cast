@@ -37,5 +37,12 @@
     "connector" : "loopback-component-storage",
     "key": "YOUR_KEY",
     "keyId": "YOUR_KEY_ID"
+  },
+  "filestore-mongo":{
+    "host": "localhost",
+    "port":27017,
+    "database":"lb_db",
+    "provider":"filestore-mongo",
+    "connector": "loopback-component-storage-mongo"
   }
 }
