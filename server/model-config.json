@@ -46,7 +46,7 @@
     "public": false
   },
   "Container": {
-    "dataSource": "amazonS3",
+    "dataSource": "local-storage",
     "public": true
   }
 }
